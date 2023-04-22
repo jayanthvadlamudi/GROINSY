@@ -1,0 +1,41 @@
+
+
+
+<!-- email form -->
+<div class="Background">
+<mat-card class="size-of-card">
+    <form [formGroup]="passemail">
+        <div class="login">
+          <mat-form-field appearance="fill">
+            <mat-label>Username</mat-label>
+            <input matInput placeholder="pat@example.com" formControlName="email" name="Username" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+          </mat-form-field>
+        </div>
+        
+        <!-- password form -->
+        <div class="password">
+        <mat-form-field appearance="fill">
+          <mat-label>password</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'" formControlName="password" name="password">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+        </div>
+        </form>
+        <br>
+    
+    
+           <!-- button for email and password -->
+           <div class="button">
+           <button mat-raised-button color="primary" (click)="pass()">LOGIN</button>
+           <!-- <button mat-raised-button color routerLink="dashboard">LOGIN</button> -->
+           </div>
+           </mat-card>
+           </div>
+    
+           
+    
+           
+           

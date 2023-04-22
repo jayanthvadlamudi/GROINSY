@@ -1,0 +1,44 @@
+.login {
+    width: 500px;
+    margin: 20px auto;
+    font-size: 16px;
+    position: relative;
+    right: 50px;
+    top: 15px;
+    
+
+  }
+
+  .password {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+  }
+
+  .button {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+    position: relative;
+    bottom: 25px;
+
+    
+  }
+
+
+  .size-of-card {
+    max-width: 500px;
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    box-shadow: 2px 2px 5px 3px #6c8b7c;
+    border-radius: 10px;
+    background-color: rgb(46, 41, 46);
+  }
+
+  
+    
+  
+  
