@@ -1,3 +1,7 @@
+#background{
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Fgroceries.html&psig=AOvVaw37zLCMKkB7Bo9Q8aLO1-SB&ust=1682408744093000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOi9qJaDwv4CFQAAAAAdAAAAABA');
+}
+
 .login {
     width: 500px;
     margin: 20px auto;
@@ -5,6 +9,7 @@
     position: relative;
     right: 50px;
     top: 15px;
+    
     
 
   }
@@ -35,7 +40,8 @@
     top: 100px;
     box-shadow: 2px 2px 5px 3px #6c8b7c;
     border-radius: 10px;
-    background-color: rgb(46, 41, 46);
+    
+
   }
 
   

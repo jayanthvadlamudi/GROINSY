@@ -1,0 +1,58 @@
+
+<mat-toolbar class="Toolbar">
+
+    <button mat-icon-button>
+      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+  </button>
+      
+      <div class="img">
+          <img src="../assets/Groinsy.png"alt="G:\GROINSY\src\assets" />
+      </div>
+      <span>Home</span>
+      <span>About</span>
+      <span>Services</span>
+      
+      <input style="border-radius: 8px;
+       width: 150px;
+        height: 20px;
+         margin-left: 600px;
+         "placeholder="search..." type="text">
+      
+      <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <span>Logout</span>
+    </button>
+  </mat-menu>
+  </mat-toolbar>
+  
+  <!-- sidenav code -->
+  <!-- <mat-sidenav-container> -->
+    <div class="row" style="display
+    :flex">
+        <span class="col-md-3">
+            <mat-sidenav  #sidenav opened = "true" >
+                <mat-nav-list>
+                    <a mat-list-item routerLink="/Sales">Sales</a>
+                    <a mat-list-item>Category List</a>
+                    <a mat-list-item>Product List</a>
+                    <a mat-list-item>Supplier List</a>
+                    <a mat-list-item>Customer List</a>
+                    <a mat-list-item>Users</a>
+                </mat-nav-list>
+            </mat-sidenav>
+        </span>
+        <span class="col-md-9">
+            <router-outlet></router-outlet>
+        </span>
+    </div>
+    
+    
+           
+  <!-- </mat-sidenav-container> -->
+
+  
+  
+  

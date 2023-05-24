@@ -1,0 +1,24 @@
+/* .website{
+  background-color: rgb(28, 27, 29);
+  height: 70px;
+  
+  color: rgb(143, 187, 40);
+  font-style: italic;
+  font-size: 25px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+} */
+
+.Toolbar{
+  background-color: black;
+  color: antiquewhite;
+  justify-content: space-evenly;
+  justify-content: space-between;
+  
+
+  
+}

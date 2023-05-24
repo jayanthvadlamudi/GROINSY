@@ -13,6 +13,16 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MENUComponent } from './menu/menu.component';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { SIDENAVComponent } from './sidenav/sidenav.component';
+import { MatListModule } from '@angular/material/list';
+import { SALESComponent } from './sales/sales.component';
+import {MatTableModule} from '@angular/material/table';
+
+
 
 
 
@@ -22,7 +32,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   declarations: [
     AppComponent,
     LOGINFORMComponent,
-    DashboardComponent
+    DashboardComponent,
+    MENUComponent,
+    SIDENAVComponent,
+    SALESComponent
   ],
   imports: [
     BrowserModule,
@@ -36,6 +49,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     MatInputModule,
     MatIconModule,
     HttpClientModule,
+    MatMenuModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatListModule,
+    MatTableModule,
+    
 
 
 

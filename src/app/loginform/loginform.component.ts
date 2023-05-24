@@ -39,11 +39,11 @@ passemail = new FormGroup({
 })
 
 pass(){
+  
   console.log(this.passemail.value);
   console.log(this.passemail.get('Number')?.setValue('9494995388'));
   
   this.apiservice.getdata(this.passemail.value);
-  this.Dashboard.navigate(['Dashboard']);
 }
 
 
